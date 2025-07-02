@@ -64,7 +64,7 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'deendayaldhaked@ybl')
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vinod974323:W2eL86Tb02WsWrEH@cluster0.d9rx0bu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://vinod974323:KbG1aVFXp5JnlESx@cluster0.petmpxp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Deendayal_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'SK_MOVIESZ')
 
 # ============================
 # Movie Notification & Update Settings
@@ -94,9 +94,9 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 # Channel & Group Links Configuration
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+d25XVDYbsBVjNjk1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SK_MOVIESZ')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+gJ0zQ3OuiR84ODJl')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/SK_MOVIESZ')
-DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', '-1002420826240')
+DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+gJ0zQ3OuiR84ODJl')
 OWNERID = int(os.environ.get('OWNERID', '6662808885'))  # Replace with the actual admin ID
 
 # ============================
