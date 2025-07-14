@@ -63,13 +63,13 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'deendayaldhaked@ybl')
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vinod974323:W2eL86Tb02WsWrEH@cluster0.d9rx0bu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://vinod974323:KbG1aVFXp5JnlESx@cluster0.petmpxp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
+DATABASE_NAME = environ.get('DATABASE_NAME', "SKMOVIESZ")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'SK_MOVIESZ')
 
 # ============================
 # Movie Notification & Update Settings
 # ============================
-DEENDAYAL_MOVIE_UPDATE_NOTIFICATION = bool(environ.get('DEENDAYAL_MOVIE_UPDATE_NOTIFICATION', False))  # Notification On (True) / Off (False)
+DEENDAYAL_MOVIE_UPDATE_NOTIFICATION = bool(environ.get('DEENDAYAL_MOVIE_UPDATE_NOTIFICATION', True))  # Notification On (True) / Off (False)
 DEENDAYAL_IMAGE_FETCH = bool(environ.get('DEENDAYAL_IMAGE_FETCH', True))  # On (True) / Off (False)
 CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla", "Telugu", "Malayalam", "Kannada", "Marathi", "Punjabi", "Bengoli", "Gujrati", "Korean", "Gujarati", "Spanish", "French", "German", "Chinese", "Arabic", "Portuguese", "Russian", "Japanese", "Odia", "Assamese", "Urdu"]
 
@@ -151,7 +151,7 @@ SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "seas
 # Server & Web Configuration
 # ============================
 
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set Stream mode True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set Stream mode True or False
 
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
