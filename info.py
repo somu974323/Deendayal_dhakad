@@ -95,7 +95,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+d25XVDYbsBVjNjk1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+gJ0zQ3OuiR84ODJl')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/SK_MOVIESZ')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/SkHelpq_bot')
 DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+Ad5vSeW_bEgyZjg1')
 OWNERID = int(os.environ.get('OWNERID', '6662808885'))  # Replace with the actual admin ID
 
@@ -104,7 +104,7 @@ OWNERID = int(os.environ.get('OWNERID', '6662808885'))  # Replace with the actua
 # ============================
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
+PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '-1002262572539').split()]
 
 # ============================
 # Miscellaneous Configuration
