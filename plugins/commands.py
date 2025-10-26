@@ -448,7 +448,7 @@ async def start(client, message):
                        InlineKeyboardButton("⚡ Hᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⚡", url=HOW_TO_VERIFY)
                    ]]
                     l = await message.reply_text(
-                        text=f"<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR {DEENDAYAL_VERIFY_EXPIRE} HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप {DEENDAYAL_VERIFY_EXPIRE} घंटे तक UNLIMITED MOVIES प्राप्त कर सकते हो।</blockquote>\n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PREMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नहीं है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
+                        text=f"<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR {DEENDAYAL_VERIFY_EXPIRE} HOURS ✅\n\n<blockquote>⚜️ ಈ BOT ನಲ್ಲಿ MOVIE ಪಡೆಯಬೇಕೆಂದರೆ ನೀವು VERIFY ಮಾಡುವುದು ಅವಶ್ಯಕವಾಗಿದೆ, ಒಂದು ಬಾರಿ VERIFY ಆದರೆ {DEENDAYAL_VERIFY_EXPIRE} ಗಂಟೆಗಳತನಕ ನೀವು UNLIMITED MOVIES ಪಡೆಯಬವುದಾಗಿದೆ</blockquote>\n\n<blockquote>🔥  ಒಂದುವೇಳೆ ನೀವು VERIFY ಮಾಡಲಾಗುವುದಿಲ್ಲ ಎಂದರೆ PREMIUM ತೆಗೆದುಕೊಳ್ಳಬೇಕು , PREMIUM ತೆಗೆದುಕೊಳ್ಳುವುದರಿಂದ ನೀವು UNLIMITED MOVIES ಪಡೆಯಬವುದು ಆಗ VERIFY ಮಾಡುವ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ PLAN DETAILS ಗಳಿಗಾಗಿ CLICK ಮಾಡಿ /plan</blockquote></b>",
                         protect_content=False,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -528,7 +528,7 @@ async def start(client, message):
                         InlineKeyboardButton("⚡ Hᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⚡", url=HOW_TO_VERIFY)
                    ]]
                    l = await message.reply_text(
-                       text=f"<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR {DEENDAYAL_VERIFY_EXPIRE} HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप {DEENDAYAL_VERIFY_EXPIRE} घंटे  तक UNLIMITED MOVIES प्राप्त कर सकते हो। <blockquote>\n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PREMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नही है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
+                       text=f"<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR {DEENDAYAL_VERIFY_EXPIRE} HOURS ✅\n\n<blockquote>⚜️ ಈ BOT ನಲ್ಲಿ MOVIE ಪಡೆಯಬೇಕೆಂದರೆ ನೀವು VERIFY ಮಾಡುವುದು ಅವಶ್ಯಕವಾಗಿದೆ, ಒಂದು ಬಾರಿ VERIFY ಆದರ {DEENDAYAL_VERIFY_EXPIRE} ಗಂಟೆಗಳತನಕ ನೀವು UNLIMITED MOVIES ಪಡೆಯಬವುದಾಗಿದೆ  <blockquote>\n\n<blockquote>🔥 ಒಂದುವೇಳೆ ನೀವು VERIFY ಮಾಡಲಾಗುವುದಿಲ್ಲ ಎಂದರೆ PREMIUM ತೆಗೆದುಕೊಳ್ಳಬೇಕು , PREMIUM ತೆಗೆದುಕೊಳ್ಳುವುದರಿಂದ ನೀವು UNLIMITED MOVIES ಪಡೆಯಬವುದು ಆಗ VERIFY ಮಾಡುವ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ PLAN DETAILS ಗಳಿಗಾಗಿ CLICK ಮಾಡಿ /plan</blockquote></b>",
                        protect_content=False,
                        reply_markup=InlineKeyboardMarkup(btn)
                    )
@@ -605,7 +605,7 @@ async def start(client, message):
               InlineKeyboardButton("⚡ Hᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⚡", url=HOW_TO_VERIFY)
            ]]
             l = await message.reply_text(
-                text=f"<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR {DEENDAYAL_VERIFY_EXPIRE} HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप {DEENDAYAL_VERIFY_EXPIRE}  घंटे  तक UNLIMITED MOVIES प्राप्त कर सकते हो।</blockquote> \n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PREMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नहीं है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
+                text=f"<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR {DEENDAYAL_VERIFY_EXPIRE} HOURS ✅\n\n<blockquote>⚜️ ಈ BOT ನಲ್ಲಿ MOVIE ಪಡೆಯಬೇಕೆಂದರೆ ನೀವು VERIFY ಮಾಡುವುದು ಅವಶ್ಯಕವಾಗಿದೆ, ಒಂದು ಬಾರಿ VERIFY ಆದರೆ {DEENDAYAL_VERIFY_EXPIRE}  ಗಂಟೆಗಳತನಕ ನೀವು UNLIMITED MOVIES ಪಡೆಯಬವುದಾಗಿದೆ </blockquote> \n\n<blockquote>🔥 ಒಂದುವೇಳೆ ನೀವು VERIFY ಮಾಡಲಾಗುವುದಿಲ್ಲ ಎಂದರೆ PREMIUM ತೆಗೆದುಕೊಳ್ಳಬೇಕು , PREMIUM ತೆಗೆದುಕೊಳ್ಳುವುದರಿಂದ ನೀವು UNLIMITED MOVIES ಪಡೆಯಬವುದು ಆಗ VERIFY ಮಾಡುವ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ PLAN DETAILS ಗಳಿಗಾಗಿ CLICK ಮಾಡಿ /plan</blockquote></b>",
                 protect_content=False,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
